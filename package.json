@@ -1,0 +1,8 @@
+{
+  "name": "simpleTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "apenkov <organaizer1212@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
