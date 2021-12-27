@@ -1,12 +1,11 @@
 {
   "name": "simpleTest",
   "version": "1.0.0",
-  "main": "main.test.js",
+  "main": "index.js",
   "author": "apenkov <organaizer1212@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node main.test.js",
-    "test": "node main.test.js"
+    "start": "node index.js"
   }
 }
