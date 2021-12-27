@@ -6,4 +6,6 @@ COPY package.json ./
 
 COPY . .
 
+RUN cat package.json
+
 CMD npm run start
