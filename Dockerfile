@@ -6,4 +6,4 @@ COPY package.json ./
 
 COPY . .
 
-CMD yarn test
+CMD yarn start

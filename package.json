@@ -6,6 +6,6 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "node main.test.js"
+    "start": "node main.test.js"
   }
 }
