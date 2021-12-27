@@ -4,5 +4,8 @@
   "main": "index.js",
   "author": "apenkov <organaizer1212@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "test": "node main.test.js"
+  }
 }
