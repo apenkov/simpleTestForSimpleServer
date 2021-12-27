@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:14-alpine
 
 WORKDIR /tests
 
@@ -6,4 +6,4 @@ COPY package.json ./
 
 COPY . .
 
-CMD yarn test
+CMD yarn run test
