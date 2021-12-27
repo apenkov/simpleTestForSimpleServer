@@ -6,4 +6,4 @@ COPY package.json ./
 
 COPY . .
 
-CMD yarn run test
+CMD npm run test
