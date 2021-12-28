@@ -1,11 +1,15 @@
 {
   "name": "simpleTest",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "test/main.test.js",
   "author": "apenkov <organaizer1212@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node index.js"
+    "start": "node test/main.test.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^9.1.3"
   }
 }

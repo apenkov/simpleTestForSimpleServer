@@ -2,10 +2,10 @@ FROM node:14-alpine
 
 WORKDIR /tests
 
-COPY package.json ./
+COPY package.json package-lock.json ./
+
+RUN npm ci
 
 COPY . .
 
-RUN cat package.json
-
-CMD npm run start
+CMD npm test
